@@ -1,0 +1,221 @@
+header, nav, main, address, footer {display: block;}
+
+body {
+  background-color: #0B4038 ;
+  color: #F4BFC7;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+header {
+  margin: 0em;
+  background-color: #FF4C00;
+}
+
+nav {
+  display: inline-block;
+  background-color: #AABBCC;
+  float: right;
+  font-weight: bold;
+  border: 3px solid #B27300;
+  margin-top: 4em;
+  margin-right: 2em;
+  padding: .5em;
+}
+
+nav a {
+  background-color: green;
+  display: block;
+  color: Black;
+  font-size: 18px;
+  font-weight: bold;
+  border: 3px solid #333333;
+  border-radius: 10px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: .5em;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+nav a:link {
+  background-color: green;
+}
+
+nav a:visited {
+  background-color: darkgreen;
+}
+
+nav a:hover {
+  background-color: yellow;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  float: left;
+}
+
+h1.menu {
+  color: #0034FF;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+h1.contact {
+  display: block;
+  color: #0034FF;
+  text-align: left;
+  padding-bottom: 1em;
+  padding-left: 2em;
+}
+
+a.menu {
+  width: 50px;
+  margin: 0 auto;
+  color: black;
+  border: 3px solid white;
+  border-radius: 8px;
+  background-color: #B27300;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 3em;
+  padding-left: 3em;
+  text-decoration: none;
+}
+
+a.menu:hover {
+  background-color: yellow;
+}
+
+img.header-img{
+  max-width: 1000px;
+  height: auto;
+  float: right;
+  width: 60%;
+  border: 3px solid #B27300;
+  border-radius: 10px;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+main {
+  margin: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #111111;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main img {
+  max-width: 1150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h2 {
+  padding-top: 1em;
+}
+
+p {
+  padding-bottom: 1em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.centerText {
+  text-align: center;
+}
+
+
+.clearfloat {
+  clear:both;
+}
+
+.contactmain {
+  background-image: url("contact-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+form {
+  width:400px;
+  color: black;
+  background-color: #596673;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+input {
+  width: 400px;
+  height: 1.8em;
+}
+
+textarea {
+  width: 400px;
+  height: 4em;
+}
+
+.radio {
+  width: 20px;
+}
+
+.reset {
+  background-color: #737E89;
+  color: white;
+  font-size: 16px;
+  width: 150px;
+  height: 2em;
+  margin-top: 25px;
+}
+
+.submit {
+  background-color: #475461;
+  color: white;
+  font-size: 16px;
+  width: 150px;
+  height: 2em;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+  display: block;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
